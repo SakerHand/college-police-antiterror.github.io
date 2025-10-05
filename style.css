@@ -1,0 +1,215 @@
+body {
+  font-family: monospace;
+  background: linear-gradient(#0d2230, #081721);
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.header-top {
+  padding: 20px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  width: 96px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #081721;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  border-radius: 10px;
+
+}
+
+.information {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*-------------------------------------------------------------------------*/
+
+
+.section-information {
+  margin-top: 50px;
+  padding: 20px 28px;
+  color: #081721;
+  background: #0d2230;
+  border-radius: 30px;
+  box-shadow: 0px 0px 50px inset;
+}
+
+.terror {
+  color: #6a63e4;
+  margin: 0 auto;
+  font-size: 25px;
+  max-width: 1280px;
+  justify-content: left;
+  padding: 20px 0px 20px 0px;
+}
+
+.information-i {
+  color: white;
+  font-size: 20px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+.Hui {
+  font-weight: bold;
+  color: #6a63e4;
+}
+
+button {
+  max-width: 1280px;
+  display: flex;
+  padding: 20px 20px;
+  background-color: #6a63e4;
+  border-radius: 30px;
+  border: none;
+  justify-content: flex-start;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+
+
+.section-puti {
+  margin-top: 100px;
+  padding: 20px 28px;
+  color: #081721;
+  background: #0d2230;
+  border-radius: 30px;
+  box-shadow: 0px 0px 50px inset;
+}
+
+h1 {
+  color: #6a63e4;
+  margin: 0 auto;
+  font-size: 25px;
+  max-width: 1280px;
+  justify-content: left;
+  padding: 20px 0px 20px 0px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Warning {
+  color: white;
+  font-size: 20px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.warning {
+  color: #6a63e4;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.number {
+  color: white;
+  font-size: 15px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.Rassled {
+  font-weight: bolder;
+  color: #6a63e4;
+}
+
+.battle {
+  color: #6a63e4;
+  font-weight: bolder;
+}
+
+.defencee {
+  color: #6a63e4;
+  font-weight: bolder;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+.n11 {
+  color: white;
+  font-size: 19px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.seks {
+  font-weight: bolder;
+}
+
+.trudnosti {
+  padding: 20px 28px;
+  box-shadow: 0px 0px 50px inset;
+  border-radius: 30px;
+  background: #0d2230;
+  color: #081721;
+  margin-top: 100px;
+}
+
+
+/*---------------------------------------------------------------------*/
+
+label {
+  color: white;
+  font-family: monospace;
+  font-size: 25px;
+  display: grid;
+  margin: 0 auto;
+  padding: 0px 0px 0px 20px;
+}
+
+input {
+  width: 20%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, .06);
+  background: transparent;
+  color: var(--text);
+}
+textarea {
+  color: white;
+  width: 50%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, .06);
+  background: transparent;
+  color: var(--text);
+}
+.form {
+  padding: 20px 28px;
+  box-shadow: 0px 0px 50px inset;
+  border-radius: 30px;
+  background: #0d2230;
+  color: #081721;
+  margin-top: 50px;
+}
+footer {
+  margin: 26px;
+  color:#cccccc;
+}
+.peniss {
+  margin-top: 10px;
+}
