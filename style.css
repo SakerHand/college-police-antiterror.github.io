@@ -1,215 +1,204 @@
-body {
-  font-family: monospace;
-  background: linear-gradient(#0d2230, #081721);
-  margin: 0 auto;
-  max-width: 1280px;
+/* === Базовые настройки === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  line-height: 1.6;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/* === Шапка сайта === */
 .header-top {
-  padding: 20px 28px;
+  background: linear-gradient(90deg, #8b0000, #2b0000);
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1280px;
-  margin: 0 auto;
+  padding: 15px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 .header-logo {
-  width: 96px;
-  height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #081721;
-  color: white;
-  font-weight: 900;
-  font-size: 30px;
-  border-radius: 10px;
-
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
-.information {
-  margin-right: 10px;
+.header-nav a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  margin-left: 30px;
+  font-weight: 600;
+  transition: color 0.3s;
 }
 
-/*-------------------------------------------------------------------------*/
+.header-nav a:hover {
+  color: #ff5555;
+}
 
-
+/* === Главная секция === */
 .section-information {
-  margin-top: 50px;
-  padding: 20px 28px;
-  color: #081721;
-  background: #0d2230;
-  border-radius: 30px;
-  box-shadow: 0px 0px 50px inset;
-}
-
-.terror {
-  color: #6a63e4;
-  margin: 0 auto;
-  font-size: 25px;
-  max-width: 1280px;
-  justify-content: left;
-  padding: 20px 0px 20px 0px;
-}
-
-.information-i {
-  color: white;
-  font-size: 20px;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding-bottom: 70px;
-}
-
-.Hui {
-  font-weight: bold;
-  color: #6a63e4;
-}
-
-button {
-  max-width: 1280px;
-  display: flex;
-  padding: 20px 20px;
-  background-color: #6a63e4;
-  border-radius: 30px;
-  border: none;
-  justify-content: flex-start;
-}
-
-/*--------------------------------------------------------------------------------*/
-
-
-
-.section-puti {
-  margin-top: 100px;
-  padding: 20px 28px;
-  color: #081721;
-  background: #0d2230;
-  border-radius: 30px;
-  box-shadow: 0px 0px 50px inset;
+  text-align: center;
+  padding: 100px 20px 60px;
+  background: linear-gradient(180deg, #1a1a1a, #2a2a2a);
 }
 
 h1 {
-  color: #6a63e4;
+  font-size: 40px;
+}
+
+.section-information h1 {
+  font-size: 42px;
+  color: #8B0000;
+  margin-bottom: 20px;
+}
+
+.section-information .information-i {
+  max-width: 900px;
   margin: 0 auto;
-  font-size: 25px;
-  max-width: 1280px;
-  justify-content: left;
-  padding: 20px 0px 20px 0px;
+  font-size: 18px;
+  color: #ddd;
 }
 
-p {
-  color: white;
-  font-size: 20px;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 20px;
+.btn {
+  background-color: #8B0000;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 6px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.Warning {
-  color: white;
-  font-size: 20px;
-  max-width: 1280px;
-  margin: 0 auto;
+.btn:hover {
+  background-color: #8B0000;
 }
 
-.warning {
-  color: #6a63e4;
-  font-weight: bolder;
-  padding-bottom: 20px;
-}
-
-.number {
-  color: white;
-  font-size: 15px;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding-bottom: 10px;
-}
-
-.Rassled {
-  font-weight: bolder;
-  color: #6a63e4;
-}
-
-.battle {
-  color: #6a63e4;
-  font-weight: bolder;
-}
-
-.defencee {
-  color: #6a63e4;
-  font-weight: bolder;
-}
-
-
-/*------------------------------------------------------------------------------------------------------*/
-
-.n11 {
-  color: white;
-  font-size: 19px;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding-bottom: 10px;
-}
-
-.seks {
-  font-weight: bolder;
-}
-
+/* === Секции "Пути" и "Трудности" === */
+.section-puti,
 .trudnosti {
-  padding: 20px 28px;
-  box-shadow: 0px 0px 50px inset;
-  border-radius: 30px;
-  background: #0d2230;
-  color: #081721;
-  margin-top: 100px;
+  background-color: #1e1e1e;
+  padding: 60px 100px;
 }
 
+.section-puti h1,
+.trudnosti h1 {
+  color: #8B0000;
+  margin-bottom: 25px;
+  text-align: center;
+}
 
-/*---------------------------------------------------------------------*/
+.section-puti p,
+.section-puti li,
+.trudnosti p,
+.trudnosti li {
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-left: 20px;
+}
+
+/* === Форма обратной связи === */
+.form {
+  background-color: #222;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.form p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 label {
-  color: white;
-  font-family: monospace;
-  font-size: 25px;
-  display: grid;
-  margin: 0 auto;
-  padding: 0px 0px 0px 20px;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
-input {
-  width: 20%;
-  padding: 8px;
-  border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, .06);
-  background: transparent;
-  color: var(--text);
-}
+input,
 textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #ff3333;
+}
+
+button[type="submit"] {
+  background-color: #a30000;
+  border: none;
+  padding: 12px 25px;
+  margin-top: 20px;
   color: white;
-  width: 50%;
-  padding: 8px;
-  border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, .06);
-  background: transparent;
-  color: var(--text);
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
-.form {
-  padding: 20px 28px;
-  box-shadow: 0px 0px 50px inset;
-  border-radius: 30px;
-  background: #0d2230;
-  color: #081721;
-  margin-top: 50px;
+
+button[type="submit"]:hover {
+  background-color: #ff2222;
 }
+
+/* === Подвал === */
 footer {
-  margin: 26px;
-  color:#cccccc;
+  background-color: #0f0f0f;
+  padding: 25px 40px;
+  text-align: center;
+  color: #aaa;
+  border-top: 1px solid #333;
 }
-.peniss {
+
+footer div+div {
   margin-top: 10px;
+  font-size: 14px;
+}
+
+/* === Адаптивность === */
+@media (max-width: 768px) {
+  .header-top {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .header-nav a {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .section-information h1 {
+    font-size: 48px;
+  }
+
+  .trudnosti li {
+    font-size: 16px;
+  }
 }
